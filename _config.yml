@@ -4,7 +4,7 @@ bio:                'Radio Wave Interferer'
 description:        "Radio astronomy researcher based in Cape Town, South Africa working for SKA SA."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/head_logo.png'
 background:         'assets/img/llandudno.jpg'
 locale:             en_US
 url:                https://griffinfoster.github.io
