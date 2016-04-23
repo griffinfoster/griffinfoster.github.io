@@ -9,18 +9,19 @@ tag:
 comments: false
 ---
 
-[Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
+* [Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
+* [arXiv Search](http://arxiv.org/find/astro-ph/1/au:+Foster_G/0/1/0/all/0/1)
 
-**Foster, G.**, A. Karastergiou, R. Paulin, T. D. Carozzi, S. Johnston, and W. van Straten. Intrinsic instrumental polarization and high-precision pulsar timing. Monthly Notices of the Royal Astronomical Society, 453(2):1489–1502, 2015.
+**Foster, G.**, A. Karastergiou, R. Paulin, T. D. Carozzi, S. Johnston, and W. van Straten. Intrinsic instrumental polarization and high-precision pulsar timing. Monthly Notices of the Royal Astronomical Society, 453(2):1489–1502, 2015. [[arXiv](http://arxiv.org/abs/1507.06839)]
 
 **Foster, G.**, J. Hickish, A. Magro, D. Price, and K. Zarb Adami. Implementation of a
 direct-imaging and fx correlator for the best-2 array. Monthly Notices of the Royal
-Astronomical Society, 439(3):3180–3188, 2014.
+Astronomical Society, 439(3):3180–3188, 2014. [[arXiv](http://arxiv.org/abs/1401.6753)]
 
 **Foster, G.** Large-N Correlator Systems for Low Frequency Astronomy. PhD thesis,
 University of Oxford, 2013.
 
-A. P. V. Siemion, G. C. Bower, **Foster, G.**, P. L. McMahon, M. I. Wagner, D. Werthimer, D. Backer, J. Cordes, and J. van Leeuwen. The Allen Telescope Array Fly’s Eye Survey for Fast Radio Transients. Astrophysical Journal, 744:109, January 2012.
+A. P. V. Siemion, G. C. Bower, **Foster, G.**, P. L. McMahon, M. I. Wagner, D. Werthimer, D. Backer, J. Cordes, and J. van Leeuwen. The Allen Telescope Array Fly’s Eye Survey for Fast Radio Transients. Astrophysical Journal, 744:109, January 2012. [[arXiv](http://arxiv.org/abs/1109.2659)]
 
 A. P. V. Siemion, D. Werthimer, D. Anderson, H. Chen, J. Cobb, J. Cordes, T. Filiba, **G. Foster**, S. Gowda, E. Korpela, M. Lebofsky, A. Little, W. Mallard, L. Spitler, and M. Wagner. Developments in the radio search for extraterrestrial intelligence. In General Assembly and Scientific Symposium, 2011 XXXth URSI, pages 1–4, Aug 2011.
 
@@ -28,12 +29,12 @@ A. P. V. Siemion, D. Werthimer, D. Anderson, H. Chen, J. Cobb, J. Cordes, T. Fil
 
 A. Siemion, G. Bower, M. Dexter, **Foster, G.**, W. Mallard, P. McMahon, M. Wagner, D. Werthimer, and Allen Telescope Array Team. Results from the Fly’s Eye Fast Radio Transient Search at the Allen Telescope Array. In American Astronomical Society Meeting Abstracts #217, volume 43 of Bulletin of the American Astronomical Society, page 240.06, January 2011.
 
-A. Siemion, J. Von Korff, P. McMahon, E. Korpela, D. Werthimer, D. Anderson, G. Bower, J. Cobb, **Foster, G.**, M. Lebofsky, J. van Leeuwen, and M. Wagner. New SETI sky surveys for radio pulses. Acta Astronautica, 67:1342–1349, December 2010.
+A. Siemion, J. Von Korff, P. McMahon, E. Korpela, D. Werthimer, D. Anderson, G. Bower, J. Cobb, **Foster, G.**, M. Lebofsky, J. van Leeuwen, and M. Wagner. New SETI sky surveys for radio pulses. Acta Astronautica, 67:1342–1349, December 2010. [[arXiv](http://arxiv.org/abs/0811.3046)]
 
 M. Ganeshalingam, W. Li, A. V. Filippenko, C. Anderson, **Foster, G.**, E. L. Gates, C. V. Griffith, B. J. Grigsby, N. Joubert, J. Leja, T. B. Lowe, B. Macomber, T. Pritchard,
 P. Thrasher, and D. Winslow. Results of the Lick Observatory Supernova Search Follow-up Photometry Program: BVRI Light Curves of 165 Type Ia Supernovae. Astrophysical Journal, 190:418–448, October 2010.
 
-A. R. Parsons, D. C. Backer, **Foster, G. S.**, M. C. H. Wright, R. F. Bradley, N. E. Gugliucci, C. R. Parashare, E. E. Benoit, J. E. Aguirre, D. C. Jacobs, C. L. Carilli, D. Herne, M. J. Lynch, J. R. Manley, and D. J. Werthimer. The Precision Array for Probing the Epoch of Re-ionization: Eight Station Results. Astronomical Journal, 139:1468–1480, April 2010.
+A. R. Parsons, D. C. Backer, **Foster, G. S.**, M. C. H. Wright, R. F. Bradley, N. E. Gugliucci, C. R. Parashare, E. E. Benoit, J. E. Aguirre, D. C. Jacobs, C. L. Carilli, D. Herne, M. J. Lynch, J. R. Manley, and D. J. Werthimer. The Precision Array for Probing the Epoch of Re-ionization: Eight Station Results. Astronomical Journal, 139:1468–1480, April 2010. [[arXiv](http://arxiv.org/abs/0904.2334)]
 
 E. J. Korpela, D. P. Anderson, R. Bankay, J. Cobb, **Foster, G.**, A. Howard, M. Lebofsky, G. Marcy, A. Parsons, A. Siemion, J. von Korff, D. Werthimer, and K. A. Douglas. SETI with Help from Five Million Volunteers: The Berkeley SETI Efforts. In K. J. Meech, J. V. Keane, M. J. Mumma, J. L. Siefert, and D. J. Werthimer, editors, Bioastronomy 2007: Molecules, Microbes and Extraterrestrial Life, volume 420 of Astronomical Society of the Pacific Conference Series, page 431, December 2009.
 
