@@ -2,7 +2,7 @@
 title:              Griffin Foster
 bio:                'Radio Wave Interferer'
 description:        "Radio astronomy researcher based in Cape Town, South Africa working for SKA SA."
-reading_time:       true
+reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/head_logo.png'
 background:         'assets/img/llandudno.jpg'
