@@ -6,7 +6,7 @@ reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/head_logo.png'
 background:         'assets/img/llandudno.jpg'
-locale:             en_US
+locale:             en_GB
 url:                https://griffinfoster.github.io
 
 # Jekyll
