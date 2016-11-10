@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Publications"
-date:   2016-04-23
+date:   2016-11-10
 excerpt: "Academic Publications"
 project: true
 tag:
@@ -11,6 +11,10 @@ comments: false
 
 * [Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
 * [arXiv Search](http://arxiv.org/find/astro-ph/1/au:+Foster_G/0/1/0/all/0/1)
+
+J. Hickish, Z. Abdurashidova, Z. Ali, K. D. Buch, S. C. Chaudhari, H. Chen, M. Dexter, R. S. Domagalski, J. Ford, **Foster, G.**, D. George, J. Greenberg, L. Greenhill, A. Isaacson, H. Jiang, G. Jones, F. Kapp, H. Kriel, R. Lacasse, A. Lutomirski, D. MacMahon, J. Manley, A. Martens, R. McCullough, M. V. Muley, W. New, A. Parsons, D. C. Price, R. A. Primiani, J. Ray, A. Siemion, V. Van Tonder, L. Vertatschitsch, M. Wagner, J. Weintroub, and D. Werthimer. A Decade of Developing Radio-Astronomy Instrumentation using CASPER Open-Source Technology. ArXiv e-prints, November 2016. [[arXiv](https://arxiv.org/abs/1611.01826)]
+
+M. T. Atemkeng, O. M. Smirnov, C. Tasse, **Foster, G.**, and J. Jonas. Using baseline-dependent window functions for data compression and field-of-interest shaping in radio interferometry. Monthly Notices of the Royal Astronomical Society, 462:2542–2558, November 2016. [[arXiv](https://arxiv.org/abs/1607.04106)]
 
 **Foster, G.**, A. Karastergiou, R. Paulin, T. D. Carozzi, S. Johnston, and W. van Straten. Intrinsic instrumental polarization and high-precision pulsar timing. Monthly Notices of the Royal Astronomical Society, 453(2):1489–1502, 2015. [[arXiv](http://arxiv.org/abs/1507.06839)]
 
