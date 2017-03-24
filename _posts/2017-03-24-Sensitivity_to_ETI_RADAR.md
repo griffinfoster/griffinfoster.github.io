@@ -8,6 +8,7 @@ tag:
 - python
 - SETI
 comments: false
+published: true
 ---
 
 **This post is a static conversion of [this notebook](https://github.com/griffinfoster/boffin/blob/master/notebooks/Sensitivity_to_ETI_RADAR.ipynb).**
