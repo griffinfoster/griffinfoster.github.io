@@ -10,6 +10,8 @@ tag:
 comments: false
 ---
 
+**This post is a static conversion of [this notebook](https://github.com/griffinfoster/boffin/blob/master/notebooks/Sensitivity_to_ETI_RADAR.ipynb).**
+
 If we would like to determine the sensitivity to a ETI RADAR system we have to consider the intensity of, and distance to the ETI signal, and the sensitivity of our radio telescopes. We need to answer the following:
 
 1. What is the flux density of a RADAR or any broadband, short duration in time pulse from a distance source, such as an ETI?
@@ -24,7 +26,7 @@ We will use the Arecibo RADAR system as a proxy for an ETI RADAR system. The Are
 | Polarization  | Dual Circular |
 | Power         | 900 kW ([3](https://arxiv.org/pdf/1604.01080.pdf)) |
 | Analogue Gain | 10 K/Jy ([4](http://www.naic.edu/~phil/pnt/pnterrs_sysperf_afterPainting_apr16.html),[5](http://www.naic.edu/~phil/pnt/sbnx102_160421.pdf)) |
-| $T_{\textrm{sys}}$ | 25 K ([4](http://www.naic.edu/~phil/pnt/pnterrs_sysperf_afterPainting_apr16.html),[5](http://www.naic.edu/~phil/pnt/sbnx102_160421.pdf)) |
+| $$T_{\textrm{sys}}$$ | 25 K ([4](http://www.naic.edu/~phil/pnt/pnterrs_sysperf_afterPainting_apr16.html),[5](http://www.naic.edu/~phil/pnt/sbnx102_160421.pdf)) |
 
 Using the Nyquist approximation for a thermal noise source ([6](https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise)), the power of the RADAR can be related to a temperature:
 
@@ -83,7 +85,7 @@ $$G_{\textrm{parabolic}} = \frac{4 \pi A_{\textrm{eff}}}{\lambda^2} = \epsilon \
 
 where $$A_{\textrm{eff}} = A \cdot \epsilon$$ is the effective area of the telescope aperture which is a product of the geometrical area $$A$$ and aperture efficiency $$\epsilon$$. For the S-band system $$\epsilon \approx 0.75$$ ([9](http://www.naic.edu/~phil/sysperf/sysperfcum.html#sbn), [10](http://www.naic.edu/~phil/sysperf/sbn/sbn_csme_Cur.pdf)). As we can see from the gain and beamwidth equations, as the diameter of the dish increase there is an increase in gain, and a reduction in beam size.
 
-**Note**: this gain $$G_{\textrm{parabolic}}$$ is the gain of the telescope due to the aperture geometry and efficiency, this term is *unit-less*. Often, there is another 'gain' term in radio astronomy in units K/Jy. This is the gain in the electornic system, and refers to the conversion between the measured values and the astronomical flux.
+**Note**: this gain $$G_{\textrm{parabolic}}$$ is the gain of the telescope due to the aperture geometry and efficiency, this term is *unit-less*. Often, there is another 'gain' term in radio astronomy in units K/Jy. This is the gain in the electronic system, and refers to the conversion between the measured values and the astronomical flux.
 
 
 ```python
@@ -112,7 +114,7 @@ print 'Luminosity: %.3e W/Hz'%lumIso
     Luminosity: 3.906e+05 W/Hz
 
 
-The flux density of a source $$S_{\nu}$$ can be related to the isotropic luminsity as
+The flux density of a source $$S_{\nu}$$ can be related to the isotropic luminosity as
 
 $$S_{\nu} = \frac{L_{\textrm{iso}, \nu}}{4 \pi r^2}$$
 
@@ -279,9 +281,9 @@ plt.legend()
 ![png](https://griffinfoster.github.io/assets/img/Sensitivity_to_ETI_RADAR_files/Sensitivity_to_ETI_RADAR_30_1.png)
 
 
-The plot above shows the sensitivty of various telescope (both single dish, and arrays) which can be used to detect RADAR signals as a function of integration time. Most of these telescopes can detect an Arecibo RADAR at a few light-years. SKA Phase 2 can detect out to 10's of light-years. But, overall this doesn't look great. Even at very optimistic integration times the distance is small. And, there are only a few stars in that small volume. So is there no chance?
+The plot above shows the sensitivity of various telescope (both single dish, and arrays) which can be used to detect RADAR signals as a function of integration time. Most of these telescopes can detect an Arecibo RADAR at a few light-years. SKA Phase 2 can detect out to 10's of light-years. But, overall this doesn't look great. Even at very optimistic integration times the distance is small. And, there are only a few stars in that small volume. So is there no chance?
 
-There is. I have used the maximum observing bandwidth of 100 MHz and constant signal (i.e. duty cycle = 1) to generate this plot. Now in our idealistic Arecibo RADAR we can't improve the duty cycle, but can work with the bandwidth. The nearly megawatt of power is evenly distributed across 100 MHz of bandwidth. If instead the power was concentrated to a smaller bandwidth, say 1 MHz we get a significant improvement. Ths important point here about sensitivity is that the transmitter distributes the power across the bandwidth linearly, but the observing bandwidth $$\Delta \nu_{\textrm{obs}}$$ in the radiometer equation only improves the sensitivity by a square root of the bandwidth. This is because the radiometer equation assumes the signal is weak compared to the system noise of the reciever. This is true, the transmitted RADAR signal starts strong, but by the time it reaches the reciever, it is weak compared to the system noise. When adding up the power across the band there is a weak signal, but also a noise term being summed. A better RADAR system in this case would have a very narrow transmission bandwidth.
+There is. I have used the maximum observing bandwidth of 100 MHz and constant signal (i.e. duty cycle = 1) to generate this plot. Now in our idealistic Arecibo RADAR we can't improve the duty cycle, but can work with the bandwidth. The nearly megawatt of power is evenly distributed across 100 MHz of bandwidth. If instead the power was concentrated to a smaller bandwidth, say 1 MHz we get a significant improvement. This important point here about sensitivity is that the transmitter distributes the power across the bandwidth linearly, but the observing bandwidth $$\Delta \nu_{\textrm{obs}}$$ in the radiometer equation only improves the sensitivity by a square root of the bandwidth. This is because the radiometer equation assumes the signal is weak compared to the system noise of the reciever. This is true, the transmitted RADAR signal starts strong, but by the time it reaches the reciever, it is weak compared to the system noise. When adding up the power across the band there is a weak signal, but also a noise term being summed. A better RADAR system in this case would have a very narrow transmission bandwidth.
 
 As for the duty cycle, it can be thought of as virtual. Assuming a RADAR signal goes on indefinately, even with a low duty cycle, sufficent $$\Delta \tau_{\textrm{obs}}$$ can be accumulated using a folding or gating search. This requires recording high time resolution spectra, and given enough computational power, a search can be preformed similar to pulsar searches.
 
@@ -320,7 +322,7 @@ plt.legend()
 ![png](https://griffinfoster.github.io/assets/img/Sensitivity_to_ETI_RADAR_files/Sensitivity_to_ETI_RADAR_32_1.png)
 
 
-It is reasonable for a Klystron, such as that used in the Arecibo RADAR, to cover a bandwidth that is a few precent of the central transmission frequency, and other transmitters can cover a range of fractional bandwidths ([13](https://en.wikipedia.org/wiki/Klystron), [14](http://www.radartutorial.eu/08.transmitters/Radar%20Transmitter.en.html)). Powers of 10's of MW is reasonable for a high power RADAR transmitter, but it should be noted that increasing the power of a Klystron also increases the bandwidth ([15](https://books.google.co.za/books/about/Radar_Handbook_Third_Edition.html?id=76uF2Xebm-gC)).
+It is reasonable for a Klystron, such as that used in the Arecibo RADAR, to cover a bandwidth that is a few percent of the central transmission frequency, and other transmitters can cover a range of fractional bandwidths ([13](https://en.wikipedia.org/wiki/Klystron), [14](http://www.radartutorial.eu/08.transmitters/Radar%20Transmitter.en.html)). Powers of 10's of MW is reasonable for a high power RADAR transmitter, but it should be noted that increasing the power of a Klystron also increases the bandwidth ([15](https://books.google.co.za/books/about/Radar_Handbook_Third_Edition.html?id=76uF2Xebm-gC)).
 
 Now, let us consider the current Breakthrough Listen observation strategy. A typical observation is 5 minutes of a target source (Source A), 5 minutes on a nearby secondary source (Source B1), back to Source A, then to a new secondary source (Source B2), back to Source a, and then finally to a third secondary source (Source B3). This strategy is used to mitigate human-made RFI.
 
@@ -365,7 +367,7 @@ $$P_{\textrm{RADAR, min}} = \frac{L_{\textrm{RADAR, iso}, \nu} \cdot \Delta \nu}
 
 I have made a number of optimistic assumptions:
 
-* ETI would be beaming a signal directly at Earth, and we would be observing the point n the ky the signal is coming from (within the size of the telescope PSF main lobe).
+* ETI would be beaming a signal directly at Earth, and we would be observing the point in the sky the signal is coming from (within the size of the telescope PSF main lobe).
 * We would integrate for the full period of the observation, and not be contaminated by terrestrial RFI
 * The duty cycle of the transmission RADAR is unity.
 * We would have sufficient search pipelines to search over all bandwidth such that the receiving bandwidth is equal to the transmission bandwidth.
