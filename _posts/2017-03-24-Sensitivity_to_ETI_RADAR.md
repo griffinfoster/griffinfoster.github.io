@@ -3,12 +3,10 @@ layout: post
 title:  "Sensitivity to ETI RADAR"
 date:   2017-03-24
 excerpt: "Sensitivity of Earth-based radio telescopes to ETI RADAR"
-project: false
 tag:
 - python
 - SETI
 comments: false
-published: true
 ---
 
 **This post is a static conversion of [this notebook](https://github.com/griffinfoster/boffin/blob/master/notebooks/Sensitivity_to_ETI_RADAR.ipynb).**
