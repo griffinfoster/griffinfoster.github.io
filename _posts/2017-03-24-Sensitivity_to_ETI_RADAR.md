@@ -1,16 +1,14 @@
-
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import rc
-%matplotlib inline
-
-rc('text', usetex=True)
-plt.rcParams['figure.figsize'] = (12, 8)
-```
-
-## Sensitivity to ETI RADAR
+---
+layout: post
+title:  "Sensitivity to ETI RADAR"
+date:   2017-03-24
+excerpt: "Sensitivity of Earth-based radio telescopes to ETI RADAR"
+project: false
+tag:
+- python
+- SETI
+comments: false
+---
 
 If we would like to determine the sensitivity to a ETI RADAR system we have to consider the intensity of, and distance to the ETI signal, and the sensitivity of our radio telescopes. We need to answer the following:
 
@@ -32,8 +30,17 @@ Using the Nyquist approximation for a thermal noise source ([6](https://en.wikip
 
 $$P_{\textrm{RADAR}} = k \cdot T_{\textrm{RADAR}} \cdot \Delta \nu$$
 
-where $k$ is the Boltzman constant and $\Delta \nu$ is the transmission bandwidth.
+where $$k$$ is the Boltzman constant and $$\Delta \nu$$ is the transmission bandwidth.
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import rc
+%matplotlib inline
+
+rc('text', usetex=True)
+plt.rcParams['figure.figsize'] = (12, 8)
+```
 
 ```python
 pRadar = 9e5 # Watts (J/s)
@@ -48,7 +55,7 @@ Making the approximation that the Arecibo telescope is a parabolic reflector we 
 
 $$\Delta \theta_{\textrm{3 dB}} = 1.22 \frac{\lambda}{D} = 1.22 \frac{c}{\nu \cdot D}$$
 
-The beamwidth is defined here as the 3 dB crossing point, or a beamwidth such that the power drops off by a factor of two, this is also called the *half-power beamwidth*. The diameter $D=305$ m is used, though though the effective diameter is smaller because the spheriodal primary dish is only partially illuminated. And, $\lambda$ is the transmission wavelength. The solid angle illuminated by the beam is
+The beamwidth is defined here as the 3 dB crossing point, or a beamwidth such that the power drops off by a factor of two, this is also called the *half-power beamwidth*. The diameter $$D=305$$ m is used, though though the effective diameter is smaller because the spheriodal primary dish is only partially illuminated. And, $$\lambda$$ is the transmission wavelength. The solid angle illuminated by the beam is
 
 $$\Omega_{\textrm{Beam}} = \pi \left(\frac{\Delta \theta_{\textrm{3 dB}}}{2}\right)^2$$
 
@@ -74,9 +81,9 @@ The antenna gain of a parabolic dish (Eq. 17.8.16 [7](http://www.ece.rutgers.edu
 
 $$G_{\textrm{parabolic}} = \frac{4 \pi A_{\textrm{eff}}}{\lambda^2} = \epsilon \left( \frac{\pi D}{\lambda} \right)^2$$
 
-where $A_{\textrm{eff}} = A \cdot \epsilon$ is the effective area of the telescope aperture which is a product of the geometrical area $A$ and aperture efficiency $\epsilon$. For the S-band system $\epsilon \approx 0.75$ ([9](http://www.naic.edu/~phil/sysperf/sysperfcum.html#sbn), [10](http://www.naic.edu/~phil/sysperf/sbn/sbn_csme_Cur.pdf)). As we can see from the gain and beamwidth equations, as the diameter of the dish increase there is an increase in gain, and a reduction in beam size.
+where $$A_{\textrm{eff}} = A \cdot \epsilon$$ is the effective area of the telescope aperture which is a product of the geometrical area $$A$$ and aperture efficiency $$\epsilon$$. For the S-band system $$\epsilon \approx 0.75$$ ([9](http://www.naic.edu/~phil/sysperf/sysperfcum.html#sbn), [10](http://www.naic.edu/~phil/sysperf/sbn/sbn_csme_Cur.pdf)). As we can see from the gain and beamwidth equations, as the diameter of the dish increase there is an increase in gain, and a reduction in beam size.
 
-**Note**: this gain $G_{\textrm{parabolic}}$ is the gain of the telescope due to the aperture geometry and efficiency, this term is *unit-less*. Often, there is another 'gain' term in radio astronomy in units K/Jy. This is the gain in the electornic system, and refers to the conversion between the measured values and the astronomical flux.
+**Note**: this gain $$G_{\textrm{parabolic}}$$ is the gain of the telescope due to the aperture geometry and efficiency, this term is *unit-less*. Often, there is another 'gain' term in radio astronomy in units K/Jy. This is the gain in the electornic system, and refers to the conversion between the measured values and the astronomical flux.
 
 
 ```python
@@ -105,11 +112,11 @@ print 'Luminosity: %.3e W/Hz'%lumIso
     Luminosity: 3.906e+05 W/Hz
 
 
-The flux density of a source $S_{\nu}$ can be related to the isotropic luminsity as
+The flux density of a source $$S_{\nu}$$ can be related to the isotropic luminsity as
 
 $$S_{\nu} = \frac{L_{\textrm{iso}, \nu}}{4 \pi r^2}$$
 
-where $r$ is the distance from the source to the detector. The flux density is in units $\textrm{W} \; \textrm{m}^{-2} \; \textrm{Hz}$ and can be converted to Janskys (Jy) with
+where $$r$$ is the distance from the source to the detector. The flux density is in units $$\textrm{W} \; \textrm{m}^{-2} \; \textrm{Hz}$$ and can be converted to Janskys (Jy) with
 
 $$1 \; \textrm{Jy} = 10^{-26} \; \frac{\textrm{W}}{\textrm{m}^2 \textrm{Hz}}$$
 
@@ -147,11 +154,11 @@ The minimum sensitivity of a radio telescope $S_{\textrm{min}}$ is described by 
 
 $$S_{\textrm{min}} = \textrm{SEFD} \frac{\textrm{SNR}_\textrm{min}}{N_{\textrm{antenna}} \; \sqrt{d_{\textrm{cycle}} \; N_{\textrm{pol}} \; \Delta \tau_{\textrm{obs}} \; \Delta \nu_{\textrm{obs}}}}$$
 
-where $\textrm{SEFD}$ is the system-equivalent flux density of a telescope in an array of $N_{\textrm{antenna}}$ antennas with $N_{\textrm{pol}}$ polarizations, for a given integration time $\Delta \tau_{\textrm{obs}}$ and bandwidth $\Delta \nu_{\textrm{obs}}$. The last term $d_{\textrm{cycle}}$ is the duty cycle of the RADAR, for a continuous signal $D=1$, if the RADAR has a pulse width of 1 ms, every second then $d_{\textrm{cycle}} = \frac{1 \textrm{ms}}{1 \textrm{s}} = 0.001$. Note, we are assuming $\Delta \tau_{\textrm{obs}}$ is a longer time length then the RADAR repetition time scale.
+where $$\textrm{SEFD}$$ is the system-equivalent flux density of a telescope in an array of $$N_{\textrm{antenna}}$$ antennas with $$N_{\textrm{pol}}$$ polarizations, for a given integration time $$\Delta \tau_{\textrm{obs}}$$ and bandwidth $$\Delta \nu_{\textrm{obs}}$$. The last term $$d_{\textrm{cycle}}$$ is the duty cycle of the RADAR, for a continuous signal $$D=1$$, if the RADAR has a pulse width of 1 ms, every second then $$d_{\textrm{cycle}} = \frac{1 \textrm{ms}}{1 \textrm{s}} = 0.001$$. Note, we are assuming $$\Delta \tau_{\textrm{obs}}$$ is a longer time length then the RADAR repetition time scale.
 
 Now assuming we know the duty cycle rate and bandwidth of the transmitting RADAR, how far away is a radio telescope sensitive to? Note, these assumptions are for the optimal detection case. Performing a large matched filter search over the time, duty cycle, and bandwidth space it is reasonable to make these assumptions.
 
-For our test case we will use $d_{\textrm{cycle}}=1$, a minimum detection SNR of 7 and the Arecibo S-band RADAR specifications to look at the sensitivity of Arecibo, GBT, Parkes, MeerKAT, and the SKA. Note, we are assuming that an L-band RADAR would have similar specification for these telescopes.
+For our test case we will use $$d_{\textrm{cycle}}=1$$, a minimum detection SNR of 7 and the Arecibo S-band RADAR specifications to look at the sensitivity of Arecibo, GBT, Parkes, MeerKAT, and the SKA. Note, we are assuming that an L-band RADAR would have similar specification for these telescopes.
 
 Note, SEFD and telescope sensitivity is related to the *Friis transmission equation* which relates the power received by a telescope in relation to the distance and power transmitted by another antenna in idealized conditions ([7](http://www.montana.edu/jshaw/documents/RadiometryFriis%20Eqn%20-%20Shaw%20-%20AJP%202013.pdf)).
 
@@ -204,7 +211,7 @@ gbtSMin = sMin(gbtSEFD, snrMin, 1, 2., dutyCycle, tObs, nuObs)
 
 #### Parkes
 
-Using the L-band system, using $T_{\textrm{sys}} = 25 \textrm{K}$ and gain $G = 1 / 1.2 \; \textrm{K/Jy}$, and $\textrm{SEFD} = T_{\textrm{sys}} / G$, then SEFD is approximately 30 Jy ([10](https://www.parkes.atnf.csiro.au/observing/documentation/user_guide/pks_ug_3.html)).
+Using the L-band system, using $$T_{\textrm{sys}} = 25 \textrm{K}$$ and gain $$G = 1 / 1.2 \; \textrm{K/Jy}$$, and $$\textrm{SEFD} = T_{\textrm{sys}} / G$$, then SEFD is approximately 30 Jy ([10](https://www.parkes.atnf.csiro.au/observing/documentation/user_guide/pks_ug_3.html)).
 
 
 ```python
@@ -269,21 +276,14 @@ plt.legend()
 ```
 
 
-
-
-    <matplotlib.legend.Legend at 0x7fc7529a3bd0>
-
-
-
-
-![png](Sensitivity_to_ETI_RADAR_files/Sensitivity_to_ETI_RADAR_30_1.png)
+![png](https://griffinfoster.github.io/assets/img/Sensitivity_to_ETI_RADAR_files/Sensitivity_to_ETI_RADAR_30_1.png)
 
 
 The plot above shows the sensitivty of various telescope (both single dish, and arrays) which can be used to detect RADAR signals as a function of integration time. Most of these telescopes can detect an Arecibo RADAR at a few light-years. SKA Phase 2 can detect out to 10's of light-years. But, overall this doesn't look great. Even at very optimistic integration times the distance is small. And, there are only a few stars in that small volume. So is there no chance?
 
-There is. I have used the maximum observing bandwidth of 100 MHz and constant signal (i.e. duty cycle = 1) to generate this plot. Now in our idealistic Arecibo RADAR we can't improve the duty cycle, but can work with the bandwidth. The nearly megawatt of power is evenly distributed across 100 MHz of bandwidth. If instead the power was concentrated to a smaller bandwidth, say 1 MHz we get a significant improvement. Ths important point here about sensitivity is that the transmitter distributes the power across the bandwidth linearly, but the observing bandwidth $\Delta \nu_{\textrm{obs}}$ in the radiometer equation only improves the sensitivity by a square root of the bandwidth. This is because the radiometer equation assumes the signal is weak compared to the system noise of the reciever. This is true, the transmitted RADAR signal starts strong, but by the time it reaches the reciever, it is weak compared to the system noise. When adding up the power across the band there is a weak signal, but also a noise term being summed. A better RADAR system in this case would have a very narrow transmission bandwidth.
+There is. I have used the maximum observing bandwidth of 100 MHz and constant signal (i.e. duty cycle = 1) to generate this plot. Now in our idealistic Arecibo RADAR we can't improve the duty cycle, but can work with the bandwidth. The nearly megawatt of power is evenly distributed across 100 MHz of bandwidth. If instead the power was concentrated to a smaller bandwidth, say 1 MHz we get a significant improvement. Ths important point here about sensitivity is that the transmitter distributes the power across the bandwidth linearly, but the observing bandwidth $$\Delta \nu_{\textrm{obs}}$$ in the radiometer equation only improves the sensitivity by a square root of the bandwidth. This is because the radiometer equation assumes the signal is weak compared to the system noise of the reciever. This is true, the transmitted RADAR signal starts strong, but by the time it reaches the reciever, it is weak compared to the system noise. When adding up the power across the band there is a weak signal, but also a noise term being summed. A better RADAR system in this case would have a very narrow transmission bandwidth.
 
-As for the duty cycle, it can be thought of as virtual. Assuming a RADAR signal goes on indefinately, even with a low duty cycle, sufficent $\Delta \tau_{\textrm{obs}}$ can be accumulated using a folding or gating search. This requires recording high time resolution spectra, and given enough computational power, a search can be preformed similar to pulsar searches.
+As for the duty cycle, it can be thought of as virtual. Assuming a RADAR signal goes on indefinately, even with a low duty cycle, sufficent $$\Delta \tau_{\textrm{obs}}$$ can be accumulated using a folding or gating search. This requires recording high time resolution spectra, and given enough computational power, a search can be preformed similar to pulsar searches.
 
 If we decrease the transmission bandwidth, holding all else equal we can improve the detectable RADAR distance.
 
@@ -317,25 +317,18 @@ plt.legend()
 ```
 
 
-
-
-    <matplotlib.legend.Legend at 0x7fc752418150>
-
-
-
-
-![png](Sensitivity_to_ETI_RADAR_files/Sensitivity_to_ETI_RADAR_32_1.png)
+![png](https://griffinfoster.github.io/assets/img/Sensitivity_to_ETI_RADAR_files/Sensitivity_to_ETI_RADAR_32_1.png)
 
 
 It is reasonable for a Klystron, such as that used in the Arecibo RADAR, to cover a bandwidth that is a few precent of the central transmission frequency, and other transmitters can cover a range of fractional bandwidths ([13](https://en.wikipedia.org/wiki/Klystron), [14](http://www.radartutorial.eu/08.transmitters/Radar%20Transmitter.en.html)). Powers of 10's of MW is reasonable for a high power RADAR transmitter, but it should be noted that increasing the power of a Klystron also increases the bandwidth ([15](https://books.google.co.za/books/about/Radar_Handbook_Third_Edition.html?id=76uF2Xebm-gC)).
 
 Now, let us consider the current Breakthrough Listen observation strategy. A typical observation is 5 minutes of a target source (Source A), 5 minutes on a nearby secondary source (Source B1), back to Source A, then to a new secondary source (Source B2), back to Source a, and then finally to a third secondary source (Source B3). This strategy is used to mitigate human-made RFI.
 
-Assuming an ideal case where Source A has a Arecibo-like RADAR, with a duty cycle $d_{\textrm{cycle}} = 1$, pointed directly at Earth, what is the maximum distance this source can be for a given telescope? That is, where is
+Assuming an ideal case where Source A has a Arecibo-like RADAR, with a duty cycle $$d_{\textrm{cycle}} = 1$$, pointed directly at Earth, what is the maximum distance this source can be for a given telescope? That is, where is
 
 $$S_{\textrm{min}} = S_{\nu}(r_{\textrm{max}})$$
 
-Solving for $r_{\textrm{max}}$
+Solving for $$r_{\textrm{max}}$$
 
 $$r_{\textrm{max}} = \left( \frac{L_{\textrm{iso}, \nu} \cdot N_{\textrm{antenna}} \; \sqrt{d_{\textrm{cycle}} \; N_{\textrm{pol}} \; \Delta \tau_{\textrm{obs}} \; \Delta \nu_{\textrm{obs}}}}{4 \pi \cdot \textrm{SEFD} \cdot \textrm{SNR}_\textrm{min}} \right)^{1/2}$$
 
@@ -363,7 +356,7 @@ print '\tSKA-2: %.1e ly'%(rMax(ska2SEFD, 2000, 2) / ly2m)
     	SKA-2: 9.0e+01 ly
 
 
-Looked at another way, we can ask, given a distance how powerful must a transmitter be to be detected by a radio telescope on Earth? Solving for $P_{\textrm{RADAR}}$ as a function of distance and minimum telescope sensitivity:
+Looked at another way, we can ask, given a distance how powerful must a transmitter be to be detected by a radio telescope on Earth? Solving for $$P_{\textrm{RADAR}}$$ as a function of distance and minimum telescope sensitivity:
 
 $$P_{\textrm{RADAR, min}} = \frac{L_{\textrm{RADAR, iso}, \nu} \cdot \Delta \nu}{G_{\textrm{parabolic}}}
 = \frac{4 \pi r_{\textrm{max}}^2 \cdot S_{\textrm{min}} \cdot \Delta \nu}{G_{\textrm{parabolic}}}$$
@@ -392,7 +385,6 @@ The local stellar density is measured to be approximately 0.15 stars per cubic p
 
 
 ```python
-# Simple model of the Milky Way with uniform density
 rhoStars = 0.15 # stars / pc^3
 ```
 
