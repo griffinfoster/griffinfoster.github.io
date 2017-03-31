@@ -18,5 +18,5 @@ Currently, I am working on [ALFABURST](http://naic.edu/~alfafrb/), the commensal
 * Bachelors of Arts Physics, University of California, Berkeley, 2007
 * Bachelors of Arts Astrophysics, University of California, Berkeley, 2007
 
-[My current CV (2017.01.13)](https://griffinfoster.github.io/assets/2017-01-13_cv.pdf)
+[My current CV (2017.03.31)](https://griffinfoster.github.io/assets/2017-03-31_cv.pdf)
 
