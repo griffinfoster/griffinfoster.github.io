@@ -12,6 +12,10 @@ comments: false
 * [Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
 * [arXiv Search](http://arxiv.org/find/astro-ph/1/au:+Foster_G/0/1/0/all/0/1)
 
+**G. Foster**, A. Karastergiou, G. Golpayegani, M. Surnis, D. R. Lorimer, J. Chennamangalam, M. McLaughlin, W. Armour, J. Cobb, D. H. E. MacMahon, X. Pei, K. Rajwade, A. P. V. Siemion, D. Werthimer, C. J. Williams *ALFABURST: A commensal search for Fast Radio Bursts with Arecibo*. Monthly Notices of the Royal Astronomical Society, November 2017 [[arXiv](https://arxiv.org/abs/1710.10806)]
+
+J. E. Enriquez, A. Siemion, **G. Foster**, V. Gajjar, G. Hellbourg, J. Hickish, H. Isaacson, D. C. Price, S. Croft, D. DeBoer, M. Lebofsky, D. MacMahon, D. Werthimer *The Breakthrough Listen Search for Intelligent Life: 1.1-1.9 GHz observations of 692 Nearby Stars*. The Astrophysical Journal, Volume 849, Issue 2, October 2017 [[arXiv](https://arxiv.org/abs/1709.03491)]
+
 J. Hickish, Z. Abdurashidova, Z. Ali, K. D. Buch, S. C. Chaudhari, H. Chen, M. Dexter, R. S. Domagalski, J. Ford, **G. Foster,**, D. George, J. Greenberg, L. Greenhill, A. Isaacson, H. Jiang, G. Jones, F. Kapp, H. Kriel, R. Lacasse, A. Lutomirski, D. MacMahon, J. Manley, A. Martens, R. McCullough, M. V. Muley, W. New, A. Parsons, D. C. Price, R. A. Primiani, J. Ray, A. Siemion, V. Van Tonder, L. Vertatschitsch, M. Wagner, J. Weintroub, and D. Werthimer. *A Decade of Developing Radio-Astronomy Instrumentation using CASPER Open-Source Technology*. Journal of Astronomical Instrumentation, Volume 5, Issue 4, November 2016. [[arXiv](https://arxiv.org/abs/1611.01826)]
 
 M. T. Atemkeng, O. M. Smirnov, C. Tasse, **G. Foster,**, and J. Jonas. *Using baseline-dependent window functions for data compression and field-of-interest shaping in radio interferometry*. Monthly Notices of the Royal Astronomical Society, 462:2542–2558, November 2016. [[arXiv](https://arxiv.org/abs/1607.04106)]
