@@ -16,7 +16,7 @@ I am a post-doctoral researcher in the [astrophysics department](http://pulsars.
 * Bachelors of Arts Physics, University of California, Berkeley, 2007
 * Bachelors of Arts Astrophysics, University of California, Berkeley, 2007
 
-[Academic CV (2017.03.31)](https://griffinfoster.github.io/assets/2018-02-17_cv.pdf)
+[Academic CV (2018.02.17)](https://griffinfoster.github.io/assets/2018-02-17_cv.pdf)
 
 [General CV (2017.05.13)](https://griffinfoster.github.io/assets/2017-05-13_cv.pdf)
 
