@@ -21,7 +21,7 @@ J. Hickish, Z. Abdurashidova, Z. Ali, K. D. Buch, S. C. Chaudhari, H. Chen, M. D
 C. D. Nunhokee, G. Bernardi, S. A. Kohn, J. E. Aguirre, N. Thyagarajan, J. S. Dillon,
 **G. Foster**, T. L. Grobler, J. Z. E. Martinot, and A. R. Parsons. Constraining Polarized
 Foregrounds for EOR Experiments II: Polarization Leakage Simulations in the
-Avoidance Scheme. ArXiv e-prints, July 2017. [[arXiv](https://arxiv.org/abs/1707.04109)]
+Avoidance Scheme. The Astrophysical Journal, July 2017. [[arXiv](https://arxiv.org/abs/1707.04109)]
 
 J. Hickish, Z. Abdurashidova, Z. Ali, K. D. Buch, S. C. Chaudhari, H. Chen, M. Dexter, R. S. Domagalski, J. Ford, **G. Foster**, D. George, J. Greenberg, L. Greenhill, A. Isaacson, H. Jiang, G. Jones, F. Kapp, H. Kriel, R. Lacasse, A. Lutomirski, D. MacMahon, J. Manley, A. Martens, R. McCullough, M. V. Muley, W. New, A. Parsons, D. C. Price, R. A. Primiani, J. Ray, A. Siemion, V. Van Tonder, L. Vertatschitsch, M. Wagner, J. Weintroub, and D. Werthimer. *A Decade of Developing Radio-Astronomy Instrumentation using CASPER Open-Source Technology*. Journal of Astronomical Instrumentation, Volume 5, Issue 4, November 2016. [[arXiv](https://arxiv.org/abs/1611.01826)]
 
