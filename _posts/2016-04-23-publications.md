@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Publications"
-date:   2016-11-10
+date:   2018-05-25
 excerpt: "Academic Publications"
 project: true
 tag:
