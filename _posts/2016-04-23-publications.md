@@ -14,7 +14,7 @@ comments: false
 
 F. Camilo, P. Scholz, M. Serylak, S. Buchner, M. Merryfield, V. M. Kaspi, R. F. Archibald, M. Bailes, A. Jameson, W. van Straten, and et al. *Revival of the Magnetar PSR J1622-4950: Observations with MeerKAT, Parkes, XMM-Newton, Swift, Chandra, and NuSTAR*. The Astrophysical Journal, 856:180, April 2018 [[arXiv](https://arxiv.org/abs/1804.01933)]
 
-M. Atemkeng, O. Smirnov, C. Tasse, **Foster, G.**, A. Keimpema, Z. Paragi, and J. Jonas. *Baseline-dependent sampling and windowing for radio interferometry: data compression, field-of-interest shaping and outer field suppression*. Monthly Notices of the Royal Astronomical Society, March 2018 [[arXiv](https://arxiv.org/abs/1803.02569)]
+M. Atemkeng, O. Smirnov, C. Tasse, **G., Foster**, A. Keimpema, Z. Paragi, and J. Jonas. *Baseline-dependent sampling and windowing for radio interferometry: data compression, field-of-interest shaping and outer field suppression*. Monthly Notices of the Royal Astronomical Society, March 2018 [[arXiv](https://arxiv.org/abs/1803.02569)]
 
 **G. Foster**, A. Karastergiou, G. Golpayegani, M. Surnis, D. R. Lorimer, J. Chennamangalam, M. McLaughlin, W. Armour, J. Cobb, D. H. E. MacMahon, X. Pei, K. Rajwade, A. P. V. Siemion, D. Werthimer, C. J. Williams *ALFABURST: A commensal search for Fast Radio Bursts with Arecibo*. Monthly Notices of the Royal Astronomical Society, November 2017 [[arXiv](https://arxiv.org/abs/1710.10806)]
 
