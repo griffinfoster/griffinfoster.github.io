@@ -12,6 +12,10 @@ comments: false
 * [Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
 * [arXiv Search](http://arxiv.org/find/astro-ph/1/au:+Foster_G/0/1/0/all/0/1)
 
+F. Camilo, P. Scholz, M. Serylak, S. Buchner, M. Merryfield, V. M. Kaspi, R. F. Archibald, M. Bailes, A. Jameson, W. van Straten, and et al. *Revival of the Magnetar PSR J1622-4950: Observations with MeerKAT, Parkes, XMM-Newton, Swift, Chandra, and NuSTAR*. The Astrophysical Journal, 856:180, April 2018 [[arXiv](https://arxiv.org/abs/1804.01933)]
+
+M. Atemkeng, O. Smirnov, C. Tasse, **Foster, G.**, A. Keimpema, Z. Paragi, and J. Jonas. *Baseline-dependent sampling and windowing for radio interferometry: data compression, field-of-interest shaping and outer field suppression*. Monthly Notices of the Royal Astronomical Society, March 2018 [[arXiv](https://arxiv.org/abs/1803.02569)]
+
 **G. Foster**, A. Karastergiou, G. Golpayegani, M. Surnis, D. R. Lorimer, J. Chennamangalam, M. McLaughlin, W. Armour, J. Cobb, D. H. E. MacMahon, X. Pei, K. Rajwade, A. P. V. Siemion, D. Werthimer, C. J. Williams *ALFABURST: A commensal search for Fast Radio Bursts with Arecibo*. Monthly Notices of the Royal Astronomical Society, November 2017 [[arXiv](https://arxiv.org/abs/1710.10806)]
 
 J. E. Enriquez, A. Siemion, **G. Foster**, V. Gajjar, G. Hellbourg, J. Hickish, H. Isaacson, D. C. Price, S. Croft, D. DeBoer, M. Lebofsky, D. MacMahon, D. Werthimer *The Breakthrough Listen Search for Intelligent Life: 1.1-1.9 GHz observations of 692 Nearby Stars*. The Astrophysical Journal, Volume 849, Issue 2, October 2017 [[arXiv](https://arxiv.org/abs/1709.03491)]
