@@ -12,7 +12,7 @@ comments: false
 * [Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
 * [arXiv Search](http://arxiv.org/find/astro-ph/1/au:+Foster_G/0/1/0/all/0/1)
 
-**G. Foster**, A. Karastergiou, M. Geyer, M. Surnis, G. Golpayegani, K. Lee, D. Lorimer, D. C. Price, and K. Rajwade. Verifying and reporting Fast Radio Bursts. Monthly Notices of the Royal Astronomical Society, 481:2612–2627, December 2018 [[arXiv](https://arxiv.org/abs/1808.07809)]
+**G. Foster**, A. Karastergiou, M. Geyer, M. Surnis, G. Golpayegani, K. Lee, D. Lorimer, D. C. Price, and K. Rajwade. *Verifying and reporting Fast Radio Bursts* Monthly Notices of the Royal Astronomical Society, 481:2612–2627, December 2018 [[arXiv](https://arxiv.org/abs/1808.07809)]
 
 Danny C. Price, David H. E. MacMahon, Matt Lebofsky, Steve Croft, David DeBoer, J. Emilio Enriquez, **Griffin S. Foster**, Vishal Gajjar, Nectaria Gizani, Greg Hellbourg, Howard Isaacson, Andrew P. V. Siemion, Dan Werthimer, James A. Green, Shaun Amy, Lewis Ball, Douglas C. J. Bock, Dan Craig, Philip G. Edwards, Andrew Jameson, Stacy Mader, Brett Preisig, Mal Smith, John Reynolds, and John Sarkissian. *The Breakthrough Listen search for intelligent life: Wide-bandwidth digital instrumentation for the CSIRO Parkes 64-m telescope* Publications of the Astronomical Society of Australia, 35:41, Nov 2018 [[arXiv](https://arxiv.org/abs/1804.04571)]
 
