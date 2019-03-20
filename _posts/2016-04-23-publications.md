@@ -9,7 +9,7 @@ tag:
 comments: false
 ---
 
-* [Google Scholar](https://scholar.google.co.za/citations?user=eqKE1L8AAAAJ&hl=en)
+* [Google Scholar](https://scholar.google.com/citations?user=eqKE1L8AAAAJ&hl=en)
 * [arXiv Search](http://arxiv.org/find/astro-ph/1/au:+Foster_G/0/1/0/all/0/1)
 
 **G. Foster**, A. Karastergiou, M. Geyer, M. Surnis, G. Golpayegani, K. Lee, D. Lorimer, D. C. Price, and K. Rajwade. *Verifying and reporting Fast Radio Bursts* Monthly Notices of the Royal Astronomical Society, 481:2612–2627, December 2018 [[arXiv](https://arxiv.org/abs/1808.07809)]
