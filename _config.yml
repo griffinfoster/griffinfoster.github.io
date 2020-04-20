@@ -1,7 +1,7 @@
 # Site
 title:              Griffin Foster
 bio:                'Igundane'
-description:        "Research Engineer working in SAR based in Berkeley, USA"
+description:        "Researcher working in SAR and radar, based in Berkeley, CA"
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/head_logo.png'
@@ -37,7 +37,7 @@ sass:
   #ad-slot:
 #bing-verify:
 email:              griffin.foster@gmail.com
-twitter:            griffinfoster
+#twitter:            griffinfoster
 #facebook:           username
 github:             griffinfoster
 #stackoverflow:      123456/username   from a "http://stackoverflow.com/users/123456/username" link
