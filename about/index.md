@@ -18,3 +18,5 @@ I am a reseach engineer at [Zendar](http://www.zendar.io) where I work on synthe
 
 [CV (2020.04.20)](https://griffinfoster.github.io/assets/2020-04-20_cv.pdf)
 
+[Publications (2020.04.20)](https://griffinfoster.github.io/assets/pub_list.pdf)
+
